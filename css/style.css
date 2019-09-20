@@ -8,13 +8,13 @@ body {
   font-size: 10px;
   float: auto;
   display: block;
-  margin: 100px;
-  width: 100px;
+  margin: 0px;
+  width: 100%;
 }
 
 .container {
   margin: 20px auto;
-  width: 10%;
+  width: 100%;
 }
 
 .preview {
