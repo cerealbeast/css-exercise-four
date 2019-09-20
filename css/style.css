@@ -4,35 +4,60 @@
 
 body {
   background-color: #dadada;
+  font-family: sans-serif;
   font-size: 10px;
+  float: auto;
+  display: block;
+  margin: 100px;
+  width: 100px;
 }
 
-div {
+.container {
+  margin: 20px auto;
+  width: 10%;
+}
+
+.preview {
   background-color: #dadada;
   float: left;
-  margin: 1% 0;
-  width: 100%;
+  margin: 15% 0;
   padding: 20px 25px;
 }
 
-.medium-pic {
-  width: 70%;
+.baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* Container holding the image and the text */
-.container {
-  margin: 10px auto;
+.london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  float: center;
   width: 90%;
-  position: relative;
-  text-align: center;
-  color: black;
+  padding: auto;
 }
 
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
 
 /* code added to create two-column design */
 @media screen and (min-width: 575px){
@@ -40,12 +65,13 @@ div {
     margin: 1%;
     width: 48%;
   }
+}
 
 
   /* code added to create four-column design */
-@media screen and (min-width: 991px){
+@media screen and (min-width: 919px){
    div {
-    margin: .50%;
-    width: 24%;
+    margin: 2%;
+    width: 88%;
   }
 }
