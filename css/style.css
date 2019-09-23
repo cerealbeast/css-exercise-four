@@ -22,10 +22,10 @@ body {
 .preview {
   display: inline-block;
   background-color: #dadada;
-  float: left;
+  float: center;
   margin: 1% 1px;
   padding: 20px 25px;
-  width: 200px;
+  width: 250px;
 }
 
 .baku {
