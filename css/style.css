@@ -13,14 +13,46 @@ body {
 }
 
 .container {
+  display: flex;
   margin: 20px auto;
-  width: 100%;
+  margin-left: -10 auto;
+  margin-right: -8 auto;
+  width: 90%;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: column;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }
 
 .preview {
   background-color: #dadada;
   float: left;
-  margin: 15% 0;
+  margin: 1% 0;
   padding: 20px 25px;
 }
 
@@ -60,18 +92,16 @@ h1 {
 }
 
 /* code added to create two-column design */
-@media screen and (min-width: 575px){
+@media screen and (min-width: 100px){
    div {
-    margin: 1%;
-    width: 48%;
+    width: 100%;
   }
 }
 
 
   /* code added to create four-column design */
-@media screen and (min-width: 919px){
+@media screen and (min-width: 100px){
    div {
-    margin: 2%;
-    width: 88%;
+    width: 100%;
   }
 }
