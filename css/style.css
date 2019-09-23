@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-  display: flex;
   margin: 20px auto;
   margin-left: -10 auto;
   margin-right: -8 auto;
@@ -24,8 +23,9 @@ body {
   display: inline-block;
   background-color: #dadada;
   float: left;
-  margin: 1% 0;
+  margin: 1% 1px;
   padding: 20px 25px;
+  width: 200px;
 }
 
 .baku {
@@ -64,7 +64,7 @@ h1 {
 }
 
 /* code added to create two-column design */
-@media screen and (min-width: 100px){
+@media screen and (min-width: 500px){
    div {
     width: 100%;
   }
